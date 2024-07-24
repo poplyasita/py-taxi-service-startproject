@@ -9,3 +9,4 @@ venv/
 .sqlite
 .db3
 sqlite3
+db.sqlite3
