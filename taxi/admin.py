@@ -10,11 +10,11 @@ class DriverAdmin(UserAdmin):
     fieldsets = (
             UserAdmin.fieldsets +
             (("Additional info", {"fields": ("license_number",)}),)
-            )
+    )
     add_fieldsets = (
-                UserAdmin.add_fieldsets +
-                (("Additional info", {"fields": ("license_number",)}),)
-                )
+            UserAdmin.add_fieldsets +
+            (("Additional info", {"fields": ("license_number",)}),)
+    )
 
 
 @admin.register(Car)
